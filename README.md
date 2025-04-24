@@ -21,4 +21,32 @@ Este projeto realiza uma análise estatística de dados de temperatura, aplicand
 │   └── analise_temperatura.py  
 │── resultados/  
 │   └── graficos/  
-│── README.md  
+│── README.md
+  
+🚀 Como Executar
+Clone o repositório:
+
+bash
+git clone [URL_DO_REPO]  
+Instale as dependências:
+
+bash
+pip install pandas numpy scipy matplotlib seaborn  
+Execute o script:
+
+bash
+python scripts/analise_temperatura.py  
+📝 Resultados
+Os dados se ajustam melhor à distribuição Weibull (teste Anderson-Darling: p-valor = 0.XX).
+
+Gráficos gerados em /resultados/graficos/:
+
+Histograma com curva de densidade.
+
+QQ-plot para normalidade.
+
+📚 Referências
+Documentação do SciPy: https://docs.scipy.org/
+
+Livro: "Estatística Prática para Cientistas de Dados" (Python).
+
